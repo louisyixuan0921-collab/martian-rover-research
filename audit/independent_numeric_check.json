@@ -1,0 +1,268 @@
+{
+  "status": "PASS",
+  "scope": "Independent numerical audit of the preserved-model MATLAB outputs",
+  "independent_methods": {
+    "fit": "Variable projection and scalar golden-section minimization",
+    "roots": "65-iteration bisection",
+    "percentiles": "NumPy linear quantile of recorded paired draws"
+  },
+  "check_count": 13608,
+  "checks": {
+    "traction": {
+      "checked": 33,
+      "max_absolute_difference": 4.718447854656915e-16
+    },
+    "independent_optimizer": {
+      "checked": 5,
+      "max_absolute_difference": 6.050371870180982e-10
+    },
+    "independent_marker_omission": {
+      "checked": 11,
+      "max_absolute_difference": 5.194066010627552e-10
+    },
+    "scenario_design": {
+      "checked": 5,
+      "max_absolute_difference": 0.0
+    },
+    "baseline_anchors_eta_fixed_0_5": {
+      "checked": 55,
+      "max_absolute_difference": 1.3358203432289883e-12
+    },
+    "expanded_eta_anchors": {
+      "checked": 35,
+      "max_absolute_difference": 1.6200374375330284e-12
+    },
+    "support_labels": {
+      "checked": 10,
+      "max_absolute_difference": 0.0
+    },
+    "duty_curve.csv": {
+      "checked": 6500,
+      "max_absolute_difference": 8.08864086820904e-10
+    },
+    "slope_curve.csv": {
+      "checked": 6500,
+      "max_absolute_difference": 7.520419842421688e-10
+    },
+    "slope_anchor_values.csv": {
+      "checked": 70,
+      "max_absolute_difference": 8.421596753294125e-13
+    },
+    "mathematical_walls_and_support": {
+      "checked": 20,
+      "max_absolute_difference": 3.907985046680551e-14
+    },
+    "empirical_energy": {
+      "checked": 48,
+      "max_absolute_difference": 4.263256414560601e-14
+    },
+    "screw": {
+      "checked": 52,
+      "max_absolute_difference": 1.0658141036401503e-14
+    },
+    "json_csv_consistency": {
+      "checked": 262,
+      "max_absolute_difference": 4.973799150320701e-14
+    },
+    "run_record": {
+      "checked": 2,
+      "max_absolute_difference": 0.0
+    }
+  },
+  "failures": [],
+  "independently_refitted_parameters": {
+    "alpha": 0.07182358560405426,
+    "K": 0.017540185184538322,
+    "beta": 0.13917403351823412,
+    "single_amplitude": 0.18411406692307886,
+    "single_K": 0.2899463749775362
+  },
+  "refitted_sse": {
+    "two_term": 7.175637585250631e-05,
+    "single_term": 0.0031352880153699718
+  },
+  "lambda_closed_form": 1.888018489510304,
+  "anchors": [
+    {
+      "duty": 0.0,
+      "T_rolling": 0.0,
+      "T_inching": 0.0,
+      "nominal_rolling_proxy": 0.05,
+      "nominal_inching_proxy": 0.027500000000000004,
+      "rolling_scenario_p05": 0.05515864827858254,
+      "rolling_scenario_median": 0.09944985064877684,
+      "rolling_scenario_p95": 0.1449256484898831,
+      "inching_scenario_p05": 0.03029578761635214,
+      "inching_scenario_median": 0.05461581511521987,
+      "inching_scenario_p95": 0.07971160101462112,
+      "ratio_of_scenario_medians_reduction_percent": 45.08205416204755,
+      "baseline_paired_median_reduction_percent": 45.00723429076611,
+      "expanded_eta_paired_median_reduction_percent": 17.2031339653824,
+      "expanded_eta_fraction_lower": 0.8207
+    },
+    {
+      "duty": 0.05,
+      "T_rolling": 0.018898316959916076,
+      "T_inching": 0.007660899874949723,
+      "nominal_rolling_proxy": 0.10192623428199175,
+      "nominal_inching_proxy": 0.08313690349357766,
+      "rolling_scenario_p05": 0.10718425021220372,
+      "rolling_scenario_median": 0.15232860490635908,
+      "rolling_scenario_p95": 0.19868037315548995,
+      "inching_scenario_p05": 0.08577826256830738,
+      "inching_scenario_median": 0.11047348386342284,
+      "inching_scenario_p95": 0.13654907366560054,
+      "ratio_of_scenario_medians_reduction_percent": 27.47686231923795,
+      "baseline_paired_median_reduction_percent": 27.327981976517613,
+      "expanded_eta_paired_median_reduction_percent": 8.799801923684742,
+      "expanded_eta_fraction_lower": 0.7558
+    },
+    {
+      "duty": 0.1,
+      "T_rolling": 0.2024595442087101,
+      "T_inching": 0.02093596315161341,
+      "nominal_rolling_proxy": 0.18807823341221683,
+      "nominal_inching_proxy": 0.14044025193961102,
+      "rolling_scenario_p05": 0.19454642977908865,
+      "rolling_scenario_median": 0.25008117042901623,
+      "rolling_scenario_p95": 0.30710122190212535,
+      "inching_scenario_p05": 0.14256420870072356,
+      "inching_scenario_median": 0.16822796705565235,
+      "inching_scenario_p95": 0.19554364075561112,
+      "ratio_of_scenario_medians_reduction_percent": 32.73065430433809,
+      "baseline_paired_median_reduction_percent": 32.68768297492676,
+      "expanded_eta_paired_median_reduction_percent": 21.018895573321423,
+      "expanded_eta_fraction_lower": 1.0
+    },
+    {
+      "duty": 0.15,
+      "T_rolling": 0.5617169550081358,
+      "T_inching": 0.0664590561292927,
+      "nominal_rolling_proxy": 0.456326116844681,
+      "nominal_inching_proxy": 0.20620413198144708,
+      "rolling_scenario_p05": 0.4680962465303463,
+      "rolling_scenario_median": 0.5691524084702098,
+      "rolling_scenario_p95": 0.6729113796664384,
+      "inching_scenario_p05": 0.2072179048153634,
+      "inching_scenario_median": 0.23540320836412643,
+      "inching_scenario_p95": 0.2653828453165339,
+      "ratio_of_scenario_medians_reduction_percent": 58.63968862104046,
+      "baseline_paired_median_reduction_percent": 58.624902733166664,
+      "expanded_eta_paired_median_reduction_percent": 53.23456449298533,
+      "expanded_eta_fraction_lower": 1.0
+    },
+    {
+      "duty": 0.2,
+      "T_rolling": 0.9209793755621374,
+      "T_inching": 0.2450718767449268,
+      "nominal_rolling_proxy": 3.1637310104602623,
+      "nominal_inching_proxy": 0.3278457807782256,
+      "rolling_scenario_p05": 3.2290133125842986,
+      "rolling_scenario_median": 3.789515114300918,
+      "rolling_scenario_p95": 4.365007881722237,
+      "inching_scenario_p05": 0.32740216816470974,
+      "inching_scenario_median": 0.3639253650985808,
+      "inching_scenario_p95": 0.4027156882907425,
+      "ratio_of_scenario_medians_reduction_percent": 90.3965189708521,
+      "baseline_paired_median_reduction_percent": 90.3921300735311,
+      "expanded_eta_paired_median_reduction_percent": 89.39078383452765,
+      "expanded_eta_fraction_lower": 1.0
+    }
+  ],
+  "mathematical_walls": [
+    {
+      "mode": "rolling",
+      "mathematical_duty_wall": 0.2109976189989489,
+      "mathematical_slope_wall_deg": 11.914513221149988,
+      "observed_TR_min": 0.010279,
+      "observed_TR_max": 0.826725,
+      "observed_duty_min": 0.034201,
+      "observed_duty_max": 0.18513,
+      "fitted_duty_at_min_source_TR": 0.033281836911382257,
+      "fitted_duty_at_max_source_TR": 0.18688223841825835
+    },
+    {
+      "mode": "inching",
+      "mathematical_duty_wall": 0.3983674059126661,
+      "mathematical_slope_wall_deg": 21.72072553920964,
+      "observed_TR_min": 0.010279,
+      "observed_TR_max": 0.713656,
+      "observed_duty_min": 0.060223,
+      "observed_duty_max": 0.321933,
+      "fitted_duty_at_min_source_TR": 0.06283672345355622,
+      "fitted_duty_at_max_source_TR": 0.32312675514732025
+    }
+  ],
+  "empirical_energy": [
+    {
+      "tire": "pneumatic",
+      "Q_empirical": 1.982379290516,
+      "calibration_times": 3.0,
+      "evaluation_times": 4.0,
+      "rmse_PN": 0.8286795212743389,
+      "mape_percent": 3.017135186285327,
+      "constant_PN_baseline_rmse": 18.958905860960076,
+      "Q_holdout_median_drift_percent": 3.0918919627154873,
+      "holdout_residuals_prediction_minus_observed": [
+        -0.5240323689244093,
+        -0.6665689491920013,
+        -0.9912322939115121,
+        -1.0224350579461436
+      ]
+    },
+    {
+      "tire": "rigid",
+      "Q_empirical": 1.7124849127309998,
+      "calibration_times": 3.0,
+      "evaluation_times": 4.0,
+      "rmse_PN": 1.330920756360223,
+      "mape_percent": 5.233620124502638,
+      "constant_PN_baseline_rmse": 16.233032711278362,
+      "Q_holdout_median_drift_percent": 5.7056105074339225,
+      "holdout_residuals_prediction_minus_observed": [
+        -0.7116014919889366,
+        -1.1449616578858972,
+        -1.4141044037437318,
+        -1.807870319664758
+      ]
+    }
+  ],
+  "screw_pooled": {
+    "paired_means": 10,
+    "power_mape_percent": 3.9003394733459986,
+    "velocity_mape_percent": 5.334968518655616,
+    "cot_mape_percent": 6.139254994150116
+  },
+  "interpretation_notes": [
+    "This audit checks arithmetic, fit reconstruction, root solving, source-support labels, and file consistency. It is not experimental validation of the assumed mechanical-CoT closure.",
+    "Baseline Table 3/Figures 5\u20136 fix eta=0.5. Saved scenario_draws.csv eta values are only the expanded-eta sensitivity. Its filename/header does not imply baseline eta varies.",
+    "Percentiles use saved draws and linear interpolation. They describe selected scenario ranges with a fixed traction fit; they are not confidence, credible, or repeated-experiment intervals. MATLAB RNG generation was not independently replayed.",
+    "Baseline ratio of medians, baseline median paired percentage reduction, nominal reduction, and expanded-eta median paired reduction are distinct statistics and must not be interchanged.",
+    "Slope walls are atan(phi(1)) and atan(lambda*phi(1)); each extends beyond the maximum source travel reduction. They are mathematical walls of an assumed slope transfer, not observed climbing limits.",
+    "Traction leave-one-marker-out is a marker reconstruction diagnostic, not independent trial validation. Inching omission retains the rolling fit, as intended.",
+    "The separate Creager conditional-Q exercise calibrates at 20/30/40 s and evaluates at 50/60/70/80 s in the same source trajectory. Total vehicle electrical energy including hotel loads is distinct from the scenario mechanical proxy.",
+    "Screw ratios use same-prototype measured/predicted P/v and cancel both mass and gravity. Extraction-bound intervals are not experimental confidence intervals; no source mass-unit inference is needed for these ratios."
+  ],
+  "sha256": {
+    "data/creager2014_matched_rolling_times.csv": "bbd533bd1f9c86ed30c3e610fd5e48dfc0ddd4abbf7e6a0acdb5f3e70ef881e6",
+    "data/moreland2011_fig4_traction.csv": "f887ad3638329a7c39b493e282bcb9a89bec3a3655d871e203e46d712fc2773f",
+    "data/thoesen2020_fig4.csv": "9dd9728dfc33a1702794442e46d3bbd518c186023f3037e0a36717cce97cce4b",
+    "results/duty_curve.csv": "d95490c606d86c0c42dd9fd09b4d238fb699e0506c31cd1b82c2ad37d6d45424",
+    "results/empirical_energy_check.csv": "f100f5281bde7aeee0e1c9abc77e22e8bab8ef01653f3a79e45b220fb15978aa",
+    "results/empirical_energy_predictions.csv": "524ca014f46451679746c81a18f17d3e3c7c53172fbbd4913270c1d1ad5f8bab",
+    "results/expanded_eta_paired_sensitivity.csv": "f53f0e10387a643f6cbe1e2a5c0aa9af3c5c26b1463bb12c2f42f54a47c0a675",
+    "results/matlab_run.log": "7e603076d4111d504aed3cb9b0c9ac02bf15fe7d8b786b74fd477a6da5f35a9f",
+    "results/scenario_draws.csv": "8aa7bf0d23d7a0830f4bc1216db8bd78cf6a068de7e36fd6ec7de7fb346f7d80",
+    "results/screw_matched_ratios.csv": "939bc06db75835fa4b437c46ceebf01faf37e6f4e1cddae494b406a577d1c1c5",
+    "results/screw_scaling_metrics.csv": "9d9200cb1f892d9e8cdb45a1ad46e9285875ac92947016c83628c74ec226b4d4",
+    "results/slope_anchor_values.csv": "5967bd6de042b11c4a54c49c8dbe9c419febf30b40a032406e305cab56907dba",
+    "results/slope_curve.csv": "a363aaa309e9907fa8fe247698cd33cbf398d20379a07d99888644aaa28b622b",
+    "results/source_support_and_mathematical_walls.csv": "49df816b4fe8d699a42db12b0ec90a7615248c7d31555a4bb8927766d584cc36",
+    "results/summary.json": "f5055796d99478a363824332c84120cd3890c79c52245f8f88daf630132e6e6d",
+    "results/table3_anchor_values.csv": "2cf8f0018d7c13982f5f70676d73b1525c3b9803a80b398f8a6323f9d0d2f531",
+    "results/traction_fit_metrics.csv": "1d545dbca51e93079c716354fa35e22df7b59dbb276a08a9b730a160c9b48682",
+    "results/traction_leave_one_marker_out.csv": "10322151fe3541ac9aaefc7eff92ddf84f821a3e8838a91275450b5a064ede14",
+    "results/traction_source_fit.csv": "1d35c764057ed565a3a0bb77363dffad740946f5cec6b22fed4560986459d327",
+    "run_conservative_model.m": "e2f6ec4dee1cfed50e60e55cd0bc9ec521575cf67005c1e816799df6fdd31331"
+  }
+}
