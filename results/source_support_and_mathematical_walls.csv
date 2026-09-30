@@ -1,0 +1,3 @@
+mode,mathematical_duty_wall,mathematical_slope_wall_deg,observed_TR_min,observed_TR_max,observed_duty_min,observed_duty_max,fitted_duty_at_min_source_TR,fitted_duty_at_max_source_TR,wall_status
+rolling,0.210997618998949,11.91451322115,0.010279,0.826725,0.034201,0.18513,0.0332818369113823,0.186882238418258,mathematical T=1 extrapolation; not measured maximum duty or climb angle
+inching,0.398367405912666,21.7207255392096,0.010279,0.713656,0.060223,0.321933,0.0628367234535562,0.32312675514732,mathematical T=1 extrapolation; not measured maximum duty or climb angle

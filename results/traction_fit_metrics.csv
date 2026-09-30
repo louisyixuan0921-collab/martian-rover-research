@@ -1,0 +1,4 @@
+model,source_markers,fitted_parameters,sse_drawbar_ratio,rmse_drawbar_ratio
+two_term_rolling,7,3,7.17563758525059e-05,0.00320170436425231
+single_term_rolling,7,2,0.00313528801536997,0.0211636076298441
+multiplier_inching,4,1,0.0005381419168865,0.0115989430217423

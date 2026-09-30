@@ -1,0 +1,347 @@
+{
+  "matlab_version": "26.1.0.3276743 (R2026a) Update 3",
+  "computer": "MACA64",
+  "seed": 2.0260922E+7,
+  "scenario_draws": 10000,
+  "nominal": {
+    "f_r": 0.05,
+    "epsilon_act": 0.1,
+    "eta": 0.5
+  },
+  "fit_parameters": {
+    "alpha": 0.071823585926142491,
+    "K": 0.0175401854845268,
+    "beta": 0.1391740330728064,
+    "lambda": 1.888018489510304
+  },
+  "single_term_parameters": {
+    "amplitude": 0.18411406657514648,
+    "K": 0.28994637437249904
+  },
+  "fit_metrics": [
+    {
+      "model": "two_term_rolling",
+      "source_markers": 7,
+      "fitted_parameters": 3,
+      "sse_drawbar_ratio": 7.1756375852505852E-5,
+      "rmse_drawbar_ratio": 0.0032017043642523064
+    },
+    {
+      "model": "single_term_rolling",
+      "source_markers": 7,
+      "fitted_parameters": 2,
+      "sse_drawbar_ratio": 0.0031352880153699705,
+      "rmse_drawbar_ratio": 0.021163607629844108
+    },
+    {
+      "model": "multiplier_inching",
+      "source_markers": 4,
+      "fitted_parameters": 1,
+      "sse_drawbar_ratio": 0.00053814191688649979,
+      "rmse_drawbar_ratio": 0.011598943021742324
+    }
+  ],
+  "anchor_values": [
+    {
+      "duty": 0,
+      "T_rolling": 0,
+      "T_inching": 0,
+      "nominal_rolling_proxy": 0.05,
+      "nominal_inching_proxy": 0.027500000000000004,
+      "rolling_scenario_median": 0.099449850648776872,
+      "rolling_scenario_p05": 0.055158648278582537,
+      "rolling_scenario_p95": 0.14492564848988337,
+      "inching_scenario_median": 0.054615815115219728,
+      "inching_scenario_p05": 0.030295787616352172,
+      "inching_scenario_p95": 0.079711601014620825,
+      "rolling_support_status": "source-TR extrapolation",
+      "inching_support_status": "source-TR extrapolation",
+      "SPV_status": "not pooled",
+      "ratio_of_scenario_medians_reduction_percent": 45.082054162047712
+    },
+    {
+      "duty": 0.05,
+      "T_rolling": 0.018898316959917345,
+      "T_inching": 0.0076608998749489766,
+      "nominal_rolling_proxy": 0.10192623428199189,
+      "nominal_inching_proxy": 0.083136903493577607,
+      "rolling_scenario_median": 0.15232860490635927,
+      "rolling_scenario_p05": 0.10718425021220386,
+      "rolling_scenario_p95": 0.1986803731554905,
+      "inching_scenario_median": 0.11047348386342279,
+      "inching_scenario_p05": 0.085778262568307326,
+      "inching_scenario_p95": 0.1365490736656006,
+      "rolling_support_status": "within source TR range; energy closure assumed",
+      "inching_support_status": "source-TR extrapolation",
+      "SPV_status": "not pooled",
+      "ratio_of_scenario_medians_reduction_percent": 27.476862319238084
+    },
+    {
+      "duty": 0.1,
+      "T_rolling": 0.20245954420871012,
+      "T_inching": 0.020935963151614272,
+      "nominal_rolling_proxy": 0.18807823341221686,
+      "nominal_inching_proxy": 0.14044025193961113,
+      "rolling_scenario_median": 0.25008117042901623,
+      "rolling_scenario_p05": 0.19454642977908868,
+      "rolling_scenario_p95": 0.30710122190212574,
+      "inching_scenario_median": 0.16822796705565252,
+      "inching_scenario_p05": 0.1425642087007237,
+      "inching_scenario_p95": 0.19554364075561143,
+      "rolling_support_status": "within source TR range; energy closure assumed",
+      "inching_support_status": "within source TR range; energy closure assumed",
+      "SPV_status": "not pooled",
+      "ratio_of_scenario_medians_reduction_percent": 32.730654304338024
+    },
+    {
+      "duty": 0.15,
+      "T_rolling": 0.56171695500814967,
+      "T_inching": 0.066459056129292746,
+      "nominal_rolling_proxy": 0.45632611684469543,
+      "nominal_inching_proxy": 0.20620413198144708,
+      "rolling_scenario_median": 0.56915240847022786,
+      "rolling_scenario_p05": 0.46809624653036114,
+      "rolling_scenario_p95": 0.67291137966646053,
+      "inching_scenario_median": 0.23540320836412632,
+      "inching_scenario_p05": 0.20721790481536337,
+      "inching_scenario_p95": 0.26538284531653383,
+      "rolling_support_status": "within source TR range; energy closure assumed",
+      "inching_support_status": "within source TR range; energy closure assumed",
+      "SPV_status": "not pooled",
+      "ratio_of_scenario_medians_reduction_percent": 58.6396886210418
+    },
+    {
+      "duty": 0.2,
+      "T_rolling": 0.92097937556213783,
+      "T_inching": 0.2450718767449368,
+      "nominal_rolling_proxy": 3.16373101046028,
+      "nominal_inching_proxy": 0.32784578077822996,
+      "rolling_scenario_median": 3.7895151143009391,
+      "rolling_scenario_p05": 3.2290133125843168,
+      "rolling_scenario_p95": 4.3650078817222653,
+      "inching_scenario_median": 0.36392536509858586,
+      "inching_scenario_p05": 0.327402168164714,
+      "inching_scenario_p95": 0.402715688290748,
+      "rolling_support_status": "source-TR extrapolation",
+      "inching_support_status": "within source TR range; energy closure assumed",
+      "SPV_status": "not pooled",
+      "ratio_of_scenario_medians_reduction_percent": 90.396518970852028
+    }
+  ],
+  "expanded_eta_sensitivity": [
+    {
+      "duty": 0,
+      "nominal_reduction_percent": 44.999999999999993,
+      "paired_scenario_median_reduction_percent": 17.203133965382385,
+      "paired_scenario_p05_reduction": -7.6190359780519756,
+      "paired_scenario_p95_reduction": 42.234696916776379,
+      "scenario_fraction_inching_lower": 0.8207,
+      "inching_nominal_eta1_proxy": 0.055000000000000007,
+      "epsilon_break_even_when_eta1": 0
+    },
+    {
+      "duty": 0.05,
+      "nominal_reduction_percent": 18.434244059710093,
+      "paired_scenario_median_reduction_percent": 8.7998019236849352,
+      "paired_scenario_p05_reduction": -7.8266966556361126,
+      "paired_scenario_p95_reduction": 26.307050696461832,
+      "scenario_fraction_inching_lower": 0.7558,
+      "inching_nominal_eta1_proxy": 0.11084920465810348,
+      "epsilon_break_even_when_eta1": 0.011453876065269375
+    },
+    {
+      "duty": 0.1,
+      "nominal_reduction_percent": 25.328811637759319,
+      "paired_scenario_median_reduction_percent": 21.01889557332138,
+      "paired_scenario_p05_reduction": 10.475566873842682,
+      "paired_scenario_p95_reduction": 32.80741029949607,
+      "scenario_fraction_inching_lower": 1,
+      "inching_nominal_eta1_proxy": 0.16852830232753338,
+      "epsilon_break_even_when_eta1": 0.22760422965251959
+    },
+    {
+      "duty": 0.15,
+      "nominal_reduction_percent": 54.812112572634987,
+      "paired_scenario_median_reduction_percent": 53.234564492986806,
+      "paired_scenario_p05_reduction": 48.148347184447516,
+      "paired_scenario_p95_reduction": 58.997551170081849,
+      "scenario_fraction_inching_lower": 1,
+      "inching_nominal_eta1_proxy": 0.23566186512165382,
+      "epsilon_break_even_when_eta1": 1.1299955691602581
+    },
+    {
+      "duty": 0.2,
+      "nominal_reduction_percent": 89.63736867343431,
+      "paired_scenario_median_reduction_percent": 89.390783834527582,
+      "paired_scenario_p05_reduction": 88.3990559480439,
+      "paired_scenario_p95_reduction": 90.515979792453052,
+      "scenario_fraction_inching_lower": 1,
+      "inching_nominal_eta1_proxy": 0.36427308975358885,
+      "epsilon_break_even_when_eta1": 8.5535580568424958
+    }
+  ],
+  "mathematical_walls_and_source_support": [
+    {
+      "mode": "rolling",
+      "mathematical_duty_wall": 0.21099761899894889,
+      "mathematical_slope_wall_deg": 11.914513221149987,
+      "observed_TR_min": 0.010279,
+      "observed_TR_max": 0.826725,
+      "observed_duty_min": 0.034201,
+      "observed_duty_max": 0.18513,
+      "fitted_duty_at_min_source_TR": 0.033281836911382257,
+      "fitted_duty_at_max_source_TR": 0.18688223841825835,
+      "wall_status": "mathematical T=1 extrapolation; not measured maximum duty or climb angle"
+    },
+    {
+      "mode": "inching",
+      "mathematical_duty_wall": 0.39836740591266612,
+      "mathematical_slope_wall_deg": 21.720725539209635,
+      "observed_TR_min": 0.010279,
+      "observed_TR_max": 0.713656,
+      "observed_duty_min": 0.060223,
+      "observed_duty_max": 0.321933,
+      "fitted_duty_at_min_source_TR": 0.062836723453556217,
+      "fitted_duty_at_max_source_TR": 0.32312675514732025,
+      "wall_status": "mathematical T=1 extrapolation; not measured maximum duty or climb angle"
+    }
+  ],
+  "slope_anchors": [
+    {
+      "angle_deg": 0,
+      "T_rolling": 0,
+      "T_inching": 0,
+      "nominal_rolling": 0.05,
+      "nominal_inching": 0.027500000000000004,
+      "rolling_median": 0.099449850648776872,
+      "rolling_p05": 0.055158648278582537,
+      "rolling_p95": 0.14492564848988337,
+      "inching_median": 0.054615815115219728,
+      "inching_p05": 0.030295787616352172,
+      "inching_p95": 0.079711601014620825
+    },
+    {
+      "angle_deg": 5,
+      "T_rolling": 0.11336258282135184,
+      "T_inching": 0.016647707955368515,
+      "nominal_rolling": 0.15447743914088427,
+      "nominal_inching": 0.12535352001228903,
+      "rolling_median": 0.210037556595091,
+      "rolling_p05": 0.16027351537777126,
+      "rolling_p95": 0.26113256772710408,
+      "inching_median": 0.15290125522474721,
+      "inching_p05": 0.12763759455097456,
+      "inching_p95": 0.17981035915893664
+    },
+    {
+      "angle_deg": 5.7,
+      "T_rolling": 0.20111823710241283,
+      "T_inching": 0.02086444763219902,
+      "nominal_rolling": 0.18660149119064409,
+      "nominal_inching": 0.13952690468808399,
+      "rolling_median": 0.24819427200885391,
+      "rolling_p05": 0.19302689973227391,
+      "rolling_p95": 0.30483712961533643,
+      "inching_median": 0.16718165298149995,
+      "inching_p05": 0.14164151489444718,
+      "inching_p95": 0.19434725718274823
+    },
+    {
+      "angle_deg": 8.5,
+      "T_rolling": 0.55777226332428942,
+      "T_inching": 0.0652224190853822,
+      "nominal_rolling": 0.44606022630000497,
+      "nominal_inching": 0.20303042387829753,
+      "rolling_median": 0.55665185743593626,
+      "rolling_p05": 0.45759723440215416,
+      "rolling_p95": 0.65835575733599017,
+      "inching_median": 0.23187635487814112,
+      "inching_p05": 0.20404687115129214,
+      "inching_p95": 0.26146091901431934
+    },
+    {
+      "angle_deg": 10,
+      "T_rolling": 0.75088285131216548,
+      "T_inching": 0.15505356557428523,
+      "nominal_rolling": 0.89471385848607121,
+      "nominal_inching": 0.25811720099119895,
+      "rolling_median": 1.0901985794726412,
+      "rolling_p05": 0.91510698214925656,
+      "rolling_p95": 1.2699731093443563,
+      "inching_median": 0.28998409392679392,
+      "inching_p05": 0.25842038921476418,
+      "inching_p95": 0.32325439462448313
+    },
+    {
+      "angle_deg": 15,
+      "T_rolling": null,
+      "T_inching": 0.50366626894814237,
+      "nominal_rolling": null,
+      "nominal_inching": 0.62712624664069216,
+      "rolling_median": null,
+      "rolling_p05": null,
+      "rolling_p95": null,
+      "inching_median": 0.6801840485153956,
+      "inching_p05": 0.62280358457939744,
+      "inching_p95": 0.74088526017015233
+    },
+    {
+      "angle_deg": 20,
+      "T_rolling": null,
+      "T_inching": 0.86909438424913943,
+      "nominal_rolling": null,
+      "nominal_inching": 3.0714015011781872,
+      "rolling_median": null,
+      "rolling_p05": null,
+      "rolling_p95": null,
+      "inching_median": 3.2665491339282626,
+      "inching_p05": 3.0344002290461569,
+      "inching_p95": 3.5129166891235513
+    }
+  ],
+  "screw_metrics": [
+    {
+      "prototype": "HGSL2",
+      "paired_means": 5,
+      "power_mape_percent": 1.6198960193517469,
+      "velocity_mape_percent": 7.2347309424272295,
+      "cot_mape_percent": 7.401948661784675,
+      "cot_ratio_min": 0.86847108621737878,
+      "cot_ratio_max": 0.9732114276568502
+    },
+    {
+      "prototype": "HGSL3",
+      "paired_means": 5,
+      "power_mape_percent": 6.18078292734025,
+      "velocity_mape_percent": 3.4352060948840033,
+      "cot_mape_percent": 4.87656132651557,
+      "cot_ratio_min": 0.99848293299620738,
+      "cot_ratio_max": 1.1136761329439828
+    }
+  ],
+  "empirical_energy_check": [
+    {
+      "tire": "pneumatic",
+      "Q_empirical": 1.982379290516,
+      "calibration_times": 3,
+      "evaluation_times": 4,
+      "rmse_PN": 0.82867952127433886,
+      "mape_percent": 3.0171351862853268,
+      "constant_PN_baseline_rmse": 18.958905860960076
+    },
+    {
+      "tire": "rigid",
+      "Q_empirical": 1.7124849127309998,
+      "calibration_times": 3,
+      "evaluation_times": 4,
+      "rmse_PN": 1.330920756360223,
+      "mape_percent": 5.2336201245026377,
+      "constant_PN_baseline_rmse": 16.233032711278362
+    }
+  ],
+  "identity_error": 0,
+  "scenario_percentiles_note": "Table3/Fig5/Fig6 baseline fixes eta=.5, samples frU[.05,.15] and epsilonU[.05,.15], fixed traction fit. Separate expanded-eta sensitivity samples etaU[.5,1] with the same paired draws. These are scenario percentiles, not experimental confidence or posterior intervals.",
+  "model_boundary_note": "Wheel duty/slope CoT is a scenario mechanical-CoT proxy. Drawbar/TR observations do not measure or independently validate its Q closure.",
+  "screw_note": "No HGSL1 values reconstructed; no pooled6.07 estimate; mass-independent ratios used. Source table mass units omitted.",
+  "slope_note": "All inclined-bed predictions assume normal-load-scaled transfer; mathematical T=1 walls are extrapolations, not measured capability."
+}

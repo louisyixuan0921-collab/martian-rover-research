@@ -1,0 +1,12 @@
+source,figure,pdf_page,mode,point_id,travel_reduction,drawbar_ratio,source_x_px,source_y_px,extraction_bound_tr,extraction_bound_dp,medium,mass_kg,wheel_diameter_m,wheel_width_m,data_type,uncertainty_type,predicted_drawbar_ratio,residual
+Moreland2011,4,3,rolling,1,0.010279,0.034201,74,505,0.002937,0.001487,GRC-1,400,0.71,0.25,digitized marker center,assumed 2px extraction bound; not experimental CI,0.0332818369113823,-0.000919163088617746
+Moreland2011,4,3,rolling,2,0.036711,0.066914,92,461,0.002937,0.001487,GRC-1,400,0.71,0.25,digitized marker center,assumed 2px extraction bound; not experimental CI,0.068075454121388,0.00116145412138803
+Moreland2011,4,3,rolling,3,0.311307,0.113755,279,398,0.002937,0.001487,GRC-1,400,0.71,0.25,digitized marker center,assumed 2px extraction bound; not experimental CI,0.115149435232871,0.00139443523287147
+Moreland2011,4,3,rolling,4,0.387665,0.124164,331,384,0.002937,0.001487,GRC-1,400,0.71,0.25,digitized marker center,assumed 2px extraction bound; not experimental CI,0.125776487439211,0.00161248743921139
+Moreland2011,4,3,rolling,5,0.530103,0.15316,428,345,0.002937,0.001487,GRC-1,400,0.71,0.25,digitized marker center,assumed 2px extraction bound; not experimental CI,0.145600158380131,-0.00755984161986897
+Moreland2011,4,3,rolling,6,0.669604,0.162825,523,332,0.002937,0.001487,GRC-1,400,0.71,0.25,digitized marker center,assumed 2px extraction bound; not experimental CI,0.165015075167826,0.00219007516782593
+Moreland2011,4,3,rolling,7,0.826725,0.18513,630,302,0.002937,0.001487,GRC-1,400,0.71,0.25,digitized marker center,assumed 2px extraction bound; not experimental CI,0.186882238418258,0.00175223841825836
+Moreland2011,4,3,inching,1,0.010279,0.060223,74,470,0.002937,0.001487,GRC-1,400,0.71,0.25,digitized marker center,assumed 2px extraction bound; not experimental CI,0.0628367234535562,0.00261372345355622
+Moreland2011,4,3,inching,2,0.010279,0.085502,74,436,0.002937,0.001487,GRC-1,400,0.71,0.25,digitized marker center,assumed 2px extraction bound; not experimental CI,0.0628367234535562,-0.0226652765464438
+Moreland2011,4,3,inching,3,0.311307,0.213383,279,264,0.002937,0.001487,GRC-1,400,0.71,0.25,digitized marker center,assumed 2px extraction bound; not experimental CI,0.217404262776331,0.00402126277633058
+Moreland2011,4,3,inching,4,0.713656,0.321933,553,118,0.002937,0.001487,GRC-1,400,0.71,0.25,digitized marker center,assumed 2px extraction bound; not experimental CI,0.32312675514732,0.00119375514732023
