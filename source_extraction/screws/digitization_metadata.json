@@ -1,0 +1,157 @@
+{
+  "image": "PRE_page5_image0_Im5.jpg",
+  "image_sha256": "e3c9823ecf46c7b4d3b41e3bd8c517709587b98e4e532b8d265b824af98f3920",
+  "pixel_coordinates": "native JPEG, x rightwards and y downwards",
+  "axes": {
+    "power": {
+      "x0": 114.0,
+      "x1": 995.0,
+      "y0": 878.5,
+      "y1": 13.0,
+      "xmax": 15.0,
+      "ymax": 15.0
+    },
+    "velocity": {
+      "x0": 115.5,
+      "x1": 996.5,
+      "y0": 1966.5,
+      "y1": 1101.0,
+      "xmax": 0.1,
+      "ymax": 0.1
+    }
+  },
+  "marker_centers": {
+    "power": {
+      "HGSL2": [
+        [
+          264.0,
+          726.5
+        ],
+        [
+          358.0,
+          635.0
+        ],
+        [
+          466.0,
+          533.5
+        ],
+        [
+          587.5,
+          410.5
+        ],
+        [
+          707.5,
+          310.5
+        ]
+      ],
+      "HGSL3": [
+        [
+          306.5,
+          697.0
+        ],
+        [
+          427.0,
+          558.5
+        ],
+        [
+          566.0,
+          405.5
+        ],
+        [
+          723.0,
+          219.5
+        ],
+        [
+          876.0,
+          69.5
+        ]
+      ]
+    },
+    "velocity": {
+      "HGSL2": [
+        [
+          295.0,
+          1775.0
+        ],
+        [
+          399.5,
+          1665.5
+        ],
+        [
+          538.5,
+          1540.5
+        ],
+        [
+          656.5,
+          1391.0
+        ],
+        [
+          748.0,
+          1269.5
+        ]
+      ],
+      "HGSL3": [
+        [
+          295.0,
+          1797.0
+        ],
+        [
+          400.0,
+          1689.5
+        ],
+        [
+          538.0,
+          1569.5
+        ],
+        [
+          656.0,
+          1424.0
+        ],
+        [
+          748.0,
+          1308.5
+        ]
+      ]
+    }
+  },
+  "selection_bound_pixels": 3,
+  "bound_interpretation": "coordinate perturbation bound; not statistical CI",
+  "scalar_uncertainties_excluded": [
+    "mass unit interpretation",
+    "motor torque calibration",
+    "power/velocity covariance",
+    "actual rpm matching",
+    "mass measurement",
+    "sampling uncertainty"
+  ],
+  "csv": "thoesen2020_screw_validation.csv",
+  "summaries": {
+    "HGSL2": {
+      "n_digitized_means": 5,
+      "cot_measured_median": 5.967791569430583,
+      "cot_measured_min": 5.848964160953102,
+      "cot_measured_max": 6.005092593400201,
+      "power_mape_pct": 1.6198960193517469,
+      "velocity_mape_pct": 7.2347309424272295,
+      "cot_mape_pct": 7.401948661784679
+    },
+    "HGSL3": {
+      "n_digitized_means": 5,
+      "cot_measured_median": 6.833335445455199,
+      "cot_measured_min": 6.141423315559343,
+      "cot_measured_max": 7.051552352966523,
+      "power_mape_pct": 6.180782927340251,
+      "velocity_mape_pct": 3.4352060948840033,
+      "cot_mape_pct": 4.87656132651557
+    },
+    "pooled": {
+      "n_digitized_means": 10,
+      "cot_measured_median": 6.073257954479772,
+      "cot_measured_min": 5.848964160953102,
+      "cot_measured_max": 7.051552352966523,
+      "power_mape_pct": 3.9003394733459986,
+      "velocity_mape_pct": 5.334968518655617,
+      "cot_mape_pct": 6.139254994150124
+    }
+  }
+}
