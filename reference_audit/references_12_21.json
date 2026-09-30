@@ -1,0 +1,217 @@
+{
+  "audit_date": "2026-09-22",
+  "scope": "References [12]–[21] with manuscript numbering.",
+  "note": "Access status distinguishes full text, inspected sections, metadata, and unavailable originals. No raw author trials recovered. DOI=null means not verified, not proof that none exists.",
+  "references": [
+    {
+      "old_number": 12,
+      "citation": "A. L. Thoesen, “Helically-Driven Dynamics in Granular Media,” Ph.D. dissertation, Mechanical Engineering, Arizona State University, Tempe, AZ, USA, 2019.",
+      "doi": null,
+      "access_status": "Institutional degree/title metadata verified; dissertation full text and repository deposit record not retrieved.",
+      "sources": [
+        {
+          "label": "ASU Fall 2019 commencement program, printed p. 19",
+          "url": "https://graduation.asu.edu/sites/g/files/litvpz3431/files/asu_fall_2019_allpageconvbookwebfinal_11.9.2020.pdf",
+          "evidence": "Andrew Lawrence Thoesen; Mechanical Engineering; dissertation title; adviser Hamidreza Marvi. Cover says Fall 2019, December 16–19, 2019."
+        },
+        {
+          "label": "ASU adviser CV",
+          "url": "https://search.asu.edu/profile/2726381/cv",
+          "evidence": "Lists Andrew Thoesen as doctoral student through F19 and graduated F19."
+        }
+      ],
+      "supported_use": "Historical background linking Thoesen’s doctoral work to helical granular dynamics.",
+      "limits": "The thesis full text was not retrieved and its trials were not digitized. Degree completion year is established; a separate repository deposit/publication date was not established. The BP-1 figure reconstruction and equations use [20]."
+    },
+    {
+      "old_number": 13,
+      "citation": "I. Townsend, A. C. Muscatello, D. Dickson, L. Sibille, A. Nick, K. Leucht, and G. Tamasy, “Mars ISRU Pathfinder Regolith Autonomous Operations—Modeling and Systems Integration,” in AIAA SPACE and Astronautics Forum and Exposition, Orlando, FL, USA, 2017, AIAA Paper 2017-5150, doi: 10.2514/6.2017-5150.",
+      "doi": "10.2514/6.2017-5150",
+      "access_status": "Publisher-deposited Crossref bibliographic metadata verified; exact conference paper full text not retrieved.",
+      "sources": [
+        {
+          "label": "AIAA DOI landing page",
+          "url": "https://arc.aiaa.org/doi/10.2514/6.2017-5150",
+          "evidence": "Publisher URL; direct access returned 403 during audit."
+        },
+        {
+          "label": "Crossref publisher-deposited record",
+          "url": "https://api.crossref.org/works/10.2514/6.2017-5150",
+          "evidence": "Verifies all seven authors in this order, title, AIAA publisher, Orlando venue, publication September 12, 2017 and DOI. Local response saved as townsend_crossref.json."
+        }
+      ],
+      "supported_use": "Bibliographic pointer to autonomous regolith operations and ISRU systems integration in introduction/application context.",
+      "limits": "Metadata alone does not establish rover energy values, granular constitutive laws, or validation. The NASA FY17 project report titled Mars ISRU Pathfinder Atmospheric Processing and Regolith Operations Modeling, Testing, and Optimization is a different item from this paper."
+    },
+    {
+      "old_number": 14,
+      "citation": "J. Slonaker, D. C. Motley, Q. Zhang, S. Townsend, C. Senatore, K. Iagnemma, and K. Kamrin, “General scaling relations for locomotion in granular media,” Physical Review E, vol. 95, no. 5, Art. no. 052901, 2017, doi: 10.1103/PhysRevE.95.052901.",
+      "doi": "10.1103/PhysRevE.95.052901",
+      "access_status": "Publisher full text retrieved; abstract and Sections II–IV inspected. Publisher correction also inspected.",
+      "sources": [
+        {
+          "label": "APS article",
+          "url": "https://journals.aps.org/pre/abstract/10.1103/PhysRevE.95.052901",
+          "evidence": "Author order, title, volume/article, publication May 10, 2017."
+        },
+        {
+          "label": "APS full text",
+          "url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevE.95.052901/fulltext",
+          "evidence": "Sections II–III, p. 052901-2: local RFT stress, grain-structure coefficient xi, product xi*D, dimensionless wheel power and velocity."
+        },
+        {
+          "label": "APS Publisher’s Note",
+          "url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevE.95.069902/fulltext",
+          "evidence": "Acknowledgment omission only; corrected June 1, 2017. No technical formula correction."
+        }
+      ],
+      "supported_use": "RFT-based wheel dimensional model and conditional dynamic similarity; controlled physical wheel tests in one sand bed, with changing-gravity similarity assessed by DEM.",
+      "limits": "Does not supply universal cross-mechanism CoT, prescribed inchworm resistance/traction fractions, or physical experiments at Mars gravity. xi is a force-per-volume coefficient depending on grains, intruder roughness and gravity, not an arbitrary dimensionless fitted constant."
+    },
+    {
+      "old_number": 15,
+      "citation": "C. Li, T. Zhang, and D. I. Goldman, “A terradynamics of legged locomotion on granular media,” Science, vol. 339, no. 6126, pp. 1408–1412, 2013, doi: 10.1126/science.1229163.",
+      "doi": "10.1126/science.1229163",
+      "access_status": "Author-hosted article full text available and relevant RFT methods inspected; supplemental material not independently audited.",
+      "sources": [
+        {
+          "label": "Author institutional publication record",
+          "url": "https://pure.johnshopkins.edu/en/publications/a-terradynamics-of-legged-locomotion-on-granular-media",
+          "evidence": "Title, author list, volume, issue, pages and DOI."
+        },
+        {
+          "label": "Author-hosted article and supplement",
+          "url": "https://li.me.jhu.edu/wp-content/uploads/2013-Science.pdf",
+          "evidence": "Main article pp. 1408–1409 describes direction/orientation/depth-dependent granular stresses and integrating surface-element forces."
+        }
+      ],
+      "supported_use": "Granular RFT background: depth-dependent local stresses and approximate additive integration for the studied leg geometries and intrusion conditions.",
+      "limits": "Does not independently validate helical three-dimensional stress superposition, a universal xi proportional to g in cohesive soils, or numerical inchworm factors chi=1/2 and lambda=4/3."
+    },
+    {
+      "old_number": 16,
+      "citation": "S. Collins, A. Ruina, R. Tedrake, and M. Wisse, “Efficient bipedal robots based on passive-dynamic walkers,” Science, vol. 307, no. 5712, pp. 1082–1085, 2005, doi: 10.1126/science.1107799.",
+      "doi": "10.1126/science.1107799",
+      "access_status": "Author-group archived Science article retrieved; cost-of-transport passage inspected.",
+      "sources": [
+        {
+          "label": "MIT author-group bibliographic record",
+          "url": "https://locomotion.csail.mit.edu/elib.cgi?b=Collins05",
+          "evidence": "Author list, journal, pages, February 18, 2005."
+        },
+        {
+          "label": "MIT archived Science article",
+          "url": "https://groups.csail.mit.edu/robotics-center/public_papers/Collins05.pdf",
+          "evidence": "p. 1083 defines dimensionless energy divided by weight times distance and separates energetic from positive mechanical actuator work; p. 1085 prints DOI."
+        }
+      ],
+      "supported_use": "Definition and boundary clarification for dimensionless cost of transport.",
+      "limits": "The application is bipedal robots. It supplies no rover-specific CoT or ranking. Its mechanical metric counts positive actuator work; when signed net torque work is used elsewhere, explicitly state that convention and its difference from electrical input energy."
+    },
+    {
+      "old_number": 17,
+      "citation": "Z. Janosi and B. Hanamoto, “The analytical determination of drawbar pull as a function of slip for tracked vehicles in deformable soils,” in Proceedings of the 1st International Conference of the International Society for Terrain-Vehicle Systems, Turin, Italy, 1961.",
+      "doi": null,
+      "access_status": "Conference existence/year/location and model attribution verified from the organizing society; original article/title page not retrieved. Exact title/author initials retained from manuscript provisionally.",
+      "sources": [
+        {
+          "label": "ISTVS proceedings catalogue",
+          "url": "https://www.istvs.org/proceedings",
+          "evidence": "Lists 1st International Conference, Turin, Italy, 1961; current proceedings ISBN 978-1-942112-00-6."
+        },
+        {
+          "label": "ISTVS memorial for Zoltán Jánosi",
+          "url": "https://www.istvs.org/newswire/in-memoriam-zoltan-janosi",
+          "evidence": "Confirms his participation at the 1961 Turin conference and attribution of the Janosi–Hanamoto shear stress/displacement model."
+        }
+      ],
+      "supported_use": "Historical citation for the established shear-displacement traction modeling tradition, with the actual constitutive equation supported by a source that was read.",
+      "limits": "The full proceedings paper was not read. Pagination and the exact historical proceedings title remain unverified; no DOI or page range is supplied. This source does not establish the manuscript’s heuristic inchworm traction multiplier."
+    },
+    {
+      "old_number": 18,
+      "citation": "M. G. Bekker, Introduction to Terrain-Vehicle Systems. Ann Arbor, MI, USA: University of Michigan Press, 1969.",
+      "doi": null,
+      "access_status": "Bibliographic metadata only; book not read.",
+      "sources": [
+        {
+          "label": "Contemporaneous University of Michigan Press catalogue archived by Georgia State University",
+          "url": "https://digitalcollections.library.gsu.edu/digital/api/collection/mhross/id/68243/download",
+          "evidence": "Search-indexed publisher catalogue entry lists Bekker title, year 1969, ISBN 0-472-04144-4. The catalogue scan itself was not successfully rendered in web tool."
+        },
+        {
+          "label": "ISTVS published recollections by J. Y. Wong",
+          "url": "https://www.istvs.org/newswire/bekker",
+          "evidence": "First-person professional recollection identifies Introduction to Terrain-Vehicle Systems as Bekker’s 1969 treatise."
+        }
+      ],
+      "supported_use": "General historical terrain–vehicle modeling background.",
+      "limits": "No equation or page-specific attribution independently checked. DOI 10.1016/0022-4898(70)90051-0 belongs to a 1970 book review by A. R. Reece, not Bekker’s book."
+    },
+    {
+      "old_number": 19,
+      "citation": "J. Y. Wong, Theory of Ground Vehicles, 4th ed. Hoboken, NJ, USA: John Wiley & Sons, 2008.",
+      "doi": null,
+      "access_status": "Publisher companion site/contents and an excerpt verified; full book and relevant Chapter 2 not read.",
+      "sources": [
+        {
+          "label": "Wiley fourth-edition companion site",
+          "url": "https://bcs.wiley.com/he-bcs/Books?action=contents&bcsId=4512&itemId=0470170387",
+          "evidence": "Verifies author/title/fourth edition and Chapter 2 vehicle–terrain interaction/terramechanics; ISBN item 0470170387."
+        },
+        {
+          "label": "Wiley publisher excerpt",
+          "url": "https://catalogimages.wiley.com/images/db/pdf/9780470170380.excerpt.pdf",
+          "evidence": "Only the first page and final page of the 85-page Chapter 1 excerpt were inspected; it directs deformable-terrain mechanics to Chapter 2."
+        },
+        {
+          "label": "ISTVS course announcement by the author",
+          "url": "https://static1.squarespace.com/static/4ff71ac2c4aaff0782fde3d6/t/513fac4de4b055c20466c441/1363127373883/Announcement%2Bof%2Bthe%2BProgram%2Bon%2BFundamentals%2Bof%2BOff-Road%2BVehicle%2BMobility%2B%282013-06-17_19%29.pdf",
+          "evidence": "Lists J. Y. Wong, Theory of Ground Vehicles, fourth edition, John Wiley, 2008."
+        }
+      ],
+      "supported_use": "Established textbook context for off-road performance and terrain interaction; no new formula-level substantiation claimed from the inaccessible chapter.",
+      "limits": "The full book and Chapter 2 were not inspected. DOI 10.1002/9781119719984 identifies the fifth edition, not the 2008 fourth edition."
+    },
+    {
+      "old_number": 20,
+      "citation": "A. Thoesen, T. McBryan, D. Mick, M. Green, J. Martia, and H. Marvi, “Granular scaling laws for helically driven dynamics,” Physical Review E, vol. 102, no. 3, Art. no. 032902, 2020, doi: 10.1103/PhysRevE.102.032902.",
+      "doi": "10.1103/PhysRevE.102.032902",
+      "access_status": "Author-hosted full article read for model, geometry and measured/predicted Figure 4 data; plotted points reconstructed separately. No raw-author-trial files obtained.",
+      "sources": [
+        {
+          "label": "APS publication record",
+          "url": "https://journals.aps.org/pre/abstract/10.1103/PhysRevE.102.032902",
+          "evidence": "Author list, title, journal, article and September 15, 2020 publication date."
+        },
+        {
+          "label": "ASU author-hosted article",
+          "url": "https://labs.engineering.asu.edu/birth/wp-content/uploads/sites/190/2021/02/PhysRevE.102.032902.pdf",
+          "evidence": "Eqs. (4)–(8) and Table I: helical scaling assumptions and prototype geometry. Figure 4: Earth BP-1 measured and predicted power/velocity. Reduced-gravity section uses DEM."
+        }
+      ],
+      "supported_use": "Helical within-family scaling and the public source of the reconstructed BP-1 comparison used in the source data, methods and Figure 7.",
+      "limits": "CoT invariance follows conditionally from the scaling transformation; this is not universal cross-design invariance. Geometrically similar wording is too strong because length scales as b/a^2 while radius/pitch scale as a. The same-study target prototypes are not independent external experiments. No Mars physical tests or raw trials were recovered."
+    },
+    {
+      "old_number": 21,
+      "citation": "Q. Zhang, S. Townsend, and K. Kamrin, “Expanded scaling relations for locomotion in sloped or cohesive granular beds,” Physical Review Fluids, vol. 5, no. 11, Art. no. 114301, 2020, doi: 10.1103/PhysRevFluids.5.114301.",
+      "doi": "10.1103/PhysRevFluids.5.114301",
+      "access_status": "Publisher full text retrieved; abstract and Sections I–III/Eqs. (1)–(3) inspected.",
+      "sources": [
+        {
+          "label": "APS publication record",
+          "url": "https://journals.aps.org/prfluids/abstract/10.1103/PhysRevFluids.5.114301",
+          "evidence": "Three authors, Physical Review Fluids 5, 114301, November 3, 2020."
+        },
+        {
+          "label": "APS full text",
+          "url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevFluids.5.114301/fulltext",
+          "evidence": "pp. 114301-2–3: cohesive stress sigma_c, added group rho0*g*L/sigma_c and bed slope theta; verification via DEM using shaped wheels."
+        }
+      ],
+      "supported_use": "Limits and extensions of the original cohesionless scaling model. Cohesive or sloped beds require the relevant additional dimensionless conditions to be matched.",
+      "limits": "Does not mean every cohesive granular scaling is impossible. At fixed material, size and cohesion, changing g changes rho0*g*L/sigma_c and invalidates simple similarity unless compensated. Validation here is DEM, not new physical rover tests."
+    }
+  ]
+}
