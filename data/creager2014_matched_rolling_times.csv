@@ -1,0 +1,17 @@
+tire,mode,time_s,travel_reduction,total_power_number,extraction_bound_tr,extraction_bound_pn,energy_boundary,source,figures,role,medium,external_drawbar_ratio
+pneumatic,rolling,10,0.361758,2.619856,0.018366,0.305088,all actuation plus hotel loads,Creager2014_NASA_TM_2014_218431,11 and 12,chronological conditional model test; not independent replicate,Fillite,0
+pneumatic,rolling,20,0.577165,4.457822,0.018391,0.349559,all actuation plus hotel loads,Creager2014_NASA_TM_2014_218431,11 and 12,chronological conditional model test; not independent replicate,Fillite,0
+pneumatic,rolling,30,0.742031,7.684564,0.013068,0.440396,all actuation plus hotel loads,Creager2014_NASA_TM_2014_218431,11 and 12,chronological conditional model test; not independent replicate,Fillite,0
+pneumatic,rolling,40,0.849914,13.492416,0.009442,0.649208,all actuation plus hotel loads,Creager2014_NASA_TM_2014_218431,11 and 12,chronological conditional model test; not independent replicate,Fillite,0
+pneumatic,rolling,50,0.898261,20.008982,0.00669,0.511845,all actuation plus hotel loads,Creager2014_NASA_TM_2014_218431,11 and 12,chronological conditional model test; not independent replicate,Fillite,0
+pneumatic,rolling,60,0.914108,23.746475,0.006132,0.288079,all actuation plus hotel loads,Creager2014_NASA_TM_2014_218431,11 and 12,chronological conditional model test; not independent replicate,Fillite,0
+pneumatic,rolling,70,0.934089,31.06784,0.006132,0.288079,all actuation plus hotel loads,Creager2014_NASA_TM_2014_218431,11 and 12,chronological conditional model test; not independent replicate,Fillite,0
+pneumatic,rolling,80,0.930677,29.618706,0.006132,0.288079,all actuation plus hotel loads,Creager2014_NASA_TM_2014_218431,11 and 12,chronological conditional model test; not independent replicate,Fillite,0
+rigid,rolling,10,0.490014,2.865225,0.022893,0.328327,all actuation plus hotel loads,Creager2014_NASA_TM_2014_218431,11 and 12,chronological conditional model test; not independent replicate,Fillite,0
+rigid,rolling,20,0.690295,5.304292,0.012995,0.350156,all actuation plus hotel loads,Creager2014_NASA_TM_2014_218431,11 and 12,chronological conditional model test; not independent replicate,Fillite,0
+rigid,rolling,30,0.798053,8.479873,0.007887,0.348231,all actuation plus hotel loads,Creager2014_NASA_TM_2014_218431,11 and 12,chronological conditional model test; not independent replicate,Fillite,0
+rigid,rolling,40,0.847744,11.540988,0.00716,0.393357,all actuation plus hotel loads,Creager2014_NASA_TM_2014_218431,11 and 12,chronological conditional model test; not independent replicate,Fillite,0
+rigid,rolling,50,0.889715,16.239415,0.00716,0.564774,all actuation plus hotel loads,Creager2014_NASA_TM_2014_218431,11 and 12,chronological conditional model test; not independent replicate,Fillite,0
+rigid,rolling,60,0.91675,21.715351,0.006674,0.625575,all actuation plus hotel loads,Creager2014_NASA_TM_2014_218431,11 and 12,chronological conditional model test; not independent replicate,Fillite,0
+rigid,rolling,70,0.929215,25.60687,0.006132,0.28374,all actuation plus hotel loads,Creager2014_NASA_TM_2014_218431,11 and 12,chronological conditional model test; not independent replicate,Fillite,0
+rigid,rolling,80,0.94213,31.399799,0.006132,0.288079,all actuation plus hotel loads,Creager2014_NASA_TM_2014_218431,11 and 12,chronological conditional model test; not independent replicate,Fillite,0

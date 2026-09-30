@@ -1,0 +1,6 @@
+source,doi,printed_page,location,terrain,vehicle_mass_kg,slope_deg,quantity,value,relation,energy_boundary,data_type,notes
+Cao et al. 2023,10.1016/j.jterra.2023.08.005,90,Section 2.2 and Figure 5,Mars 90,9.7,0,C_inching_over_C_rolling,1.5,minimum_reported,electrical_motor_controller_input,author_reported_summary,best inching consumes at least 50 percent more energy
+Cao et al. 2023,10.1016/j.jterra.2023.08.005,90,Section 2.2 and Figure 5,Mars 90,9.7,10,C_inching_over_C_rolling,0.3333333333,approximate_best_case,electrical_motor_controller_input,author_reported_summary,reported reduction factor up to 3; not a confidence bound
+Cao et al. 2023,10.1016/j.jterra.2023.08.005,90,Section 2.2 and Figure 5,Mars 90,9.7,20,C_inching_over_C_rolling,0.125,approximate_best_case,electrical_motor_controller_input,author_reported_summary,reported reduction factor up to 8; not a confidence bound
+Cao et al. 2023,10.1016/j.jterra.2023.08.005,90,Section 2.2 and Figure 4,Mars 90,9.7,20,TR_rolling,0.98,approximate,not_applicable,author_reported_summary,TR reference differs by mode; do not substitute into same-reference formula
+Cao et al. 2023,10.1016/j.jterra.2023.08.005,90,Section 2.2 and Figure 4,Mars 90,9.7,20,TR_inching,0.85,approximate,not_applicable,author_reported_summary,approximately 70 percent kinematic slip; TR=1-dcycle/dsusp
