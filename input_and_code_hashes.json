@@ -1,0 +1,9 @@
+{
+  "run_conservative_model.m": "e2f6ec4dee1cfed50e60e55cd0bc9ec521575cf67005c1e816799df6fdd31331",
+  "data/cao2023_reported_ratios.csv": "ef1bcb042241dc715ba1d8d95d168650b269cb43994934bd87911ba0b89d82ae",
+  "data/creager2012_fig5_traction.csv": "37caab682f1b89da01538a4c0d74f1a33dab1e75adb7bd63e34114131dfe9a9c",
+  "data/creager2014_inching_published_mean_lines.csv": "763b6e40c1fcf0d137c7acd2adfd122f2f71b60e5beee4bdb548453ba9c5b672",
+  "data/creager2014_matched_rolling_times.csv": "bbd533bd1f9c86ed30c3e610fd5e48dfc0ddd4abbf7e6a0acdb5f3e70ef881e6",
+  "data/moreland2011_fig4_traction.csv": "f887ad3638329a7c39b493e282bcb9a89bec3a3655d871e203e46d712fc2773f",
+  "data/thoesen2020_fig4.csv": "9dd9728dfc33a1702794442e46d3bbd518c186023f3037e0a36717cce97cce4b"
+}

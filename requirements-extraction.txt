@@ -1,0 +1,5 @@
+# Optional reconstruction from published figures
+-r requirements.txt
+pypdf
+pdfplumber
+Pillow

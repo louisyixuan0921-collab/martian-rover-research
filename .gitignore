@@ -1,0 +1,18 @@
+# Local OS/editor/runtime files
+.DS_Store
+Thumbs.db
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+*.asv
+*.autosave
+# Downloaded third-party source PDFs and extracted native figure images
+source_extraction/**/*.pdf
+source_extraction/**/*.png
+source_extraction/**/*.jpg
+# Build caches
+*.egg-info/
+.pytest_cache/
