@@ -4,7 +4,7 @@ Supplementary code, data, and reproducibility materials for **Energy Efficiency 
 
 The project compares rolling, inching, and screw propulsion through published experimental evidence, traction fitting, dimensional analysis, and conditional energy scenarios. It contains a secondary-data modeling study, not new rover experiments or a validated Mars vehicle design.
 
-The [manuscript](docs/Manuscript_Final.docx) and [model documentation](docs/MODEL_NOTES.md) describe the assumptions, equations, and interpretation. The instructions below reproduce the reported calculations and figures from the supplied data.
+The [manuscript](Manuscript_Repository_Revised) and [model documentation](docs/MODEL_NOTES.md) describe the model's assumptions, equations, and interpretation. The instructions below reproduce the reported calculations and figures from the supplied data.
 
 ![Traction models fitted to published rolling and inching measurements](figures/figure4_traction.png)
 
